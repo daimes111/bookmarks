@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--text-black);
+    border-radius: .1vmin;
+    input {
+        font-size: 1vmin;
+        border-radius: .1vmin;
+        outline: none;
+        height: 3vmin;
+        width: 25%;
+    }
+    .button {
+        margin: 1vmin;
+        // padding: 1vmin;
+        color: var(--offWhite);
+        background-color: var(--text-dark);
+        border-radius: .5vmin;
+        width: auto;
+
+    }
+}
